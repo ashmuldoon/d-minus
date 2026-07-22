@@ -13,10 +13,15 @@ An incredibly simple interpreter for a language fittingly dubbed 'd-'. Though I'
 
 ## TODO:
 ☐ Interpreter roadmap (Quite important)
+
   ☐ Lexer implementation
+  
   ☐ Parser implementation
+  
   ☐ Interpreter implementation
+
 ☐ Language design (Less important)
+
   ☐ Find minimum possible space for each token to take up (likely one ASCII character to comply with most text editors).
-  ☐ Design a language around the concept of no variable or lexeme exceeding one ASCII character - the lexer will have an easy job.
-- - 
+  
+  ☐ Design a language around the concept of no variable or lexeme exceeding one ASCII character - the lexer will have an easy job. 
