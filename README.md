@@ -3,7 +3,7 @@ An incredibly simple interpreter for a language fittingly dubbed 'd-'. Though I'
 
 ## Project Aims
 - To develop a interpreter for an incredibly sparse language, containing only the most basic functionalities (in essence a turing machine a là Urban Müller's 1993 esolang 'Brainfuck').
-- To do so with as compact a interpreter (measured by the size of the compiled executable) as is possible.
+- To do so with as compact an interpreter (as measured by the size of the compiled executable) as is possible.
 - To learn and showcase interpreter design in a more intuitive, hands-on way.
 
 ## What this project is NOT aiming for
