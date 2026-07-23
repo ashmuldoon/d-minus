@@ -2,7 +2,7 @@
 
 An incredibly simple interpreter for a language fittingly dubbed 'd-'. Though I'm sure my genius leaks through the contributions, it should be readily apparent that this is not a language designed to be used, and is instead an exercise.
 
-This is effectively a Forth interpreter by any other name, only with the added limitation of space optimization. Current plan: Write real code in C for brainstorming, then translate to Assembly.
+This is effectively a BF interpreter by any other name, only with the added limitation of space optimization. There are, obviously, many ways to "cheat" this goal. As such, I am disallowing myself from using libSystem (I run MacOS) wherever possible. This may lead to instability, as Apple truly hates syscalls, but I will try my best.
 
 ## Project Aims
 
