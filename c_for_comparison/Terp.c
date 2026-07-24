@@ -60,21 +60,10 @@ int main(int argc, char **argv)
             break; // replaces + and -
         case '.':
         {
-            // pack bits [ptr .. ptr+7] into a byte, ptr = MSB
             unsigned char out = 0;
             for (int b = 0; b < 8; b++)
                 out |= GET_BIT(tape, ptr + b) << (7 - b);
             putchar(out);
-            break;
-        }
-        case ',':
-        {
-            // unpack one input byte into bits [ptr .. ptr+7], ptr = MSB
-            int in = getchar();
-            if (in == EOF)
-                in = 0; // decide EOF behavior explicitly
-            for (int b = 0; b < 8; b++)
-                SET_BIT(tape, ptr + b, (in >> (7 - b)) & 1);
             break;
         }
         case '[':

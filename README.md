@@ -4,6 +4,10 @@ An incredibly simple interpreter for a language fittingly dubbed 'd-'. Though I'
 
 This is effectively a BF interpreter by any other name, only with the added limitation of space optimization. There are, obviously, many ways to "cheat" this goal. As such, I am disallowing myself from using libSystem (I run MacOS) wherever possible. This may lead to instability, as Apple truly hates syscalls, but I will try my best.
 
+Current size on disk: 37KB
+
+This is effectively the minimum size for a file on MacOS. I am not satisfied with this result, but improving upon it will take time to port to Windows. I will be back.
+
 ## Project Aims
 
 - To develop a interpreter for an incredibly sparse language, containing only the most basic functionalities (in essence a turing machine a là Urban Müller's 1993 esolang 'Brainfuck' or a very basic interpretation of Forth).
@@ -30,8 +34,8 @@ This is effectively a BF interpreter by any other name, only with the added limi
 |
 |- ☑ Find minimum possible space for each token to take up (likely one ASCII character to comply with most text editors).
 | |
-| |- ☐ Investigate possible alternatives to ascii
+| |- ☑ Investigate possible alternatives to ascii (none were satisfying)
 |
-|- ☐ Design a language around the concept of no variable or lexeme exceeding one ASCII character - the lexer will have an easy job.
+|- ☑ Design a language around the concept of no variable or lexeme exceeding one ASCII character - the lexer will have an easy job. (Unfortunately I ended up reinventing Boolfuck, a language I know exists only after I remade it lol)
 
-☐ Final assembly write
+☑ Final assembly write
