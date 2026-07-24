@@ -10,7 +10,7 @@ This is effectively the minimum size for a file on MacOS. I am not satisfied wit
 
 ## Project Aims
 
-- To develop a interpreter for an incredibly sparse language, containing only the most basic functionalities (in essence a turing machine a là Urban Müller's 1993 esolang 'Brainfuck' or a very basic interpretation of Forth).
+- To develop a interpreter for an incredibly sparse language, containing only the most basic functionalities (in essence a turing machine a là Urban Müller's 1993 esolang 'Brainfuck' or a very basic interpretation of Forth). (Note: I discovered too late that my plan for the programming language used in this project was in fact already created, and named boolfuck. We soldier through.)
 - To do so with as compact an interpreter (as measured by the size of the compiled executable) as is possible.
 - To learn and showcase interpreter design in a more intuitive, hands-on way.
 
